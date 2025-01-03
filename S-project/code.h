@@ -166,7 +166,7 @@ void library(){
     }
 } 
 
-// ============================= 6.Banking Management Simulation =============================
+// ============================= 7.Banking Management Simulation =============================
   void money(){
     int balance = 0;
     int choice;
@@ -202,5 +202,25 @@ void library(){
         else{
             printf("Invalid choice\n");
         }
+    }
+}
+
+// ================================= 6.BMI =======================================
+void bmi(){
+    float weight, height, bmi;
+    printf("Enter your weight (kg): ");
+    scanf("%f", &weight);
+    printf("Enter your height (m): ");
+    scanf("%f", &height);
+    bmi = weight / (height * height);
+    printf("Your BMI is %.2f\n", bmi);
+    if (bmi < 18.5){
+        printf("Underweight\n");
+    } else if (bmi < 25){
+        printf("Normal\n");
+    } else if (bmi < 30){
+        printf("Overweight\n");
+    } else {
+        printf("Obese\n");
     }
 }
