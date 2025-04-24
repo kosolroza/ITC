@@ -1,0 +1,12 @@
+Employee Information:
+-ID of employee (string first 3 letters from department with 001-100)
+-First name of employee 
+-Last name of employee
+-Position 
+-Department (IT, Sale, Accounting, HR, Marketing)
+-Salary
+-Performance (good, medium , bad)
+-Attendance
+-Bonus (10% - 10%)
+-Birth of date 
+-Hire Date
